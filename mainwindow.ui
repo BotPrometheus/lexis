@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>350</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>350</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label_p1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>261</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Αριθμός Καταχωριμένων Λέξεων</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_ar_lexeon">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>10</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_p3">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>94</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Αγγλικά</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_p2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>176</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ελληνικά</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_el">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>199</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_gb">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>118</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_el">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>197</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Νέα Λέξη</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_gb">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>118</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Νέα Λέξη</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_el">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>201</y>
+      <width>141</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Τυχαία Επιλογή</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_gb">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>141</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Τυχαία Επιλογή</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_elenxos">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>75</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Έλεγχος</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_lisi">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>240</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Λύση</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>231</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Λέξεις που εξετάστηκαν</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_ar_ex_lex">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>70</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>αριθμός</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Λέξεις Προς Εξέταση</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_arith_lex_pros_exet">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>40</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_printlist">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Προς Μητρώο
+Εκτύπωσης</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="arxeio">
+    <property name="title">
+     <string>Αρχείο</string>
+    </property>
+    <addaction name="m_a_neo"/>
+    <addaction name="m_a_anigma"/>
+    <addaction name="m_a_apothikeusi"/>
+    <addaction name="m_a_apoth_os"/>
+    <addaction name="separator"/>
+    <addaction name="m_a_exodos"/>
+   </widget>
+   <widget class="QMenu" name="lexilogio">
+    <property name="title">
+     <string>Λεξιλόγιο</string>
+    </property>
+    <addaction name="m_l_eisag"/>
+    <addaction name="m_l_diag"/>
+    <addaction name="m_l_diorthosi"/>
+    <addaction name="m_l_exetApo"/>
+    <addaction name="m_l_MinExetTo"/>
+   </widget>
+   <widget class="QMenu" name="help">
+    <property name="title">
+     <string>Βοήθεια</string>
+    </property>
+    <addaction name="m_b_sxetika"/>
+   </widget>
+   <widget class="QMenu" name="ektup">
+    <property name="title">
+     <string>Εκτύπωση</string>
+    </property>
+    <addaction name="m_e_ektuposi"/>
+    <addaction name="m_e_ExagArxeioPDF"/>
+    <addaction name="separator"/>
+    <addaction name="m_e_ApothMitroou"/>
+    <addaction name="m_e_ektuposi_mitroo"/>
+    <addaction name="m_e_ExagMitrooPDF"/>
+    <addaction name="m_e_Proboli_Mitroo"/>
+    <addaction name="m_e_ProsMitrooEktup"/>
+   </widget>
+   <addaction name="arxeio"/>
+   <addaction name="ektup"/>
+   <addaction name="lexilogio"/>
+   <addaction name="help"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="m_a_exodos">
+   <property name="text">
+    <string>Έξοδος</string>
+   </property>
+  </action>
+  <action name="m_a_anigma">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Άνοιγμα Αρχείου...</string>
+   </property>
+  </action>
+  <action name="m_a_apothikeusi">
+   <property name="text">
+    <string>Αποθήκευση Αρχείου</string>
+   </property>
+  </action>
+  <action name="m_a_neo">
+   <property name="text">
+    <string>Νέο Αρχείο...</string>
+   </property>
+  </action>
+  <action name="m_l_eisag">
+   <property name="text">
+    <string>Εισαγωγή Λέξης...</string>
+   </property>
+   <property name="statusTip">
+    <string>Εισαγωγή Νέας Λέξης</string>
+   </property>
+   <property name="shortcut">
+    <string>Space</string>
+   </property>
+  </action>
+  <action name="m_l_diag">
+   <property name="text">
+    <string>Διαγραφή Λέξης...</string>
+   </property>
+   <property name="shortcut">
+    <string>Del</string>
+   </property>
+  </action>
+  <action name="m_a_apoth_os">
+   <property name="text">
+    <string>Αποθήκευση Ως...</string>
+   </property>
+  </action>
+  <action name="m_b_sxetika">
+   <property name="text">
+    <string>Σχετικά...</string>
+   </property>
+  </action>
+  <action name="m_l_diorthosi">
+   <property name="text">
+    <string>Διόρθωση Λέξης...</string>
+   </property>
+  </action>
+  <action name="m_l_exetApo">
+   <property name="text">
+    <string>Εξέτασε Από...</string>
+   </property>
+  </action>
+  <action name="m_l_MinExetTo">
+   <property name="text">
+    <string>Ορισμός Εξετάσιμων...</string>
+   </property>
+   <property name="shortcut">
+    <string>E</string>
+   </property>
+  </action>
+  <action name="m_e_ektuposi">
+   <property name="text">
+    <string>Εκτύπωση Αρχείου...</string>
+   </property>
+  </action>
+  <action name="m_e_ektuposi_mitroo">
+   <property name="text">
+    <string>Εκτύπωση Μητρώου...</string>
+   </property>
+  </action>
+  <action name="m_e_ProsMitrooEktup">
+   <property name="text">
+    <string>Προς Μητρώο Εκτύπωσης</string>
+   </property>
+  </action>
+  <action name="m_e_Proboli_Mitroo">
+   <property name="text">
+    <string>Προβολή Μητρώου Εκτυπ...</string>
+   </property>
+  </action>
+  <action name="m_e_ExagMitrooPDF">
+   <property name="text">
+    <string>Εξαγωγή Μητρώου Σε PDF</string>
+   </property>
+  </action>
+  <action name="m_e_ExagArxeioPDF">
+   <property name="text">
+    <string>Εξαγωγή Αρχείου Σε PDF</string>
+   </property>
+  </action>
+  <action name="m_e_ApothMitroou">
+   <property name="text">
+    <string>Αποθήκευση Μητρώου...</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>pushButton_el</tabstop>
+  <tabstop>checkBox_gb</tabstop>
+  <tabstop>pushButton_elenxos</tabstop>
+  <tabstop>pushButton_gb</tabstop>
+  <tabstop>pushButton_lisi</tabstop>
+  <tabstop>lineEdit_gb</tabstop>
+  <tabstop>checkBox_el</tabstop>
+  <tabstop>lineEdit_el</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>m_a_exodos</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_a_neo</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>Neo_Arxeio()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>174</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_a_anigma</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>Anoigma_Arxeiou()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>174</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_a_apothikeusi</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>Apothikeusi_Arxeiou()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>174</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_l_diag</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>Diagrafi_Lexis()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>174</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_l_eisag</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>Eisagogi_Lexis()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>174</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_a_apoth_os</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>Apothik_Os()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>174</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_b_sxetika</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>Sxetika()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>174</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_l_diorthosi</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>Diorthosi_Lexis()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>174</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_l_exetApo</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ExetaseApo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>174</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_l_MinExetTo</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>MinExetazeisTo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>174</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_e_ProsMitrooEktup</sender>
+   <signal>triggered()</signal>
+   <receiver>pushButton_printlist</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>50</x>
+     <y>232</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>Neo_Arxeio()</slot>
+  <slot>Apothikeusi_Arxeiou()</slot>
+  <slot>Anoigma_Arxeiou()</slot>
+  <slot>Diagrafi_Lexis()</slot>
+  <slot>Eisagogi_Lexis()</slot>
+  <slot>Apothik_Os()</slot>
+  <slot>Exodos()</slot>
+  <slot>Sxetika()</slot>
+  <slot>Diorthosi_Lexis()</slot>
+  <slot>ExetaseApo()</slot>
+  <slot>MinExetazeisTo()</slot>
+ </slots>
+</ui>

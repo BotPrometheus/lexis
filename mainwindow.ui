@@ -26,292 +26,202 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QLabel" name="label_p1">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>10</y>
-      <width>261</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Αριθμός Καταχωριμένων Λέξεων</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_ar_lexeon">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>10</y>
-      <width>91</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>TextLabel</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_p3">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>94</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Αγγλικά</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_p2">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>176</y>
-      <width>81</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Ελληνικά</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_el">
-    <property name="geometry">
-     <rect>
-      <x>169</x>
-      <y>199</y>
-      <width>201</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_gb">
-    <property name="geometry">
-     <rect>
-      <x>169</x>
-      <y>118</y>
-      <width>201</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_el">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>197</y>
-      <width>81</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Νέα Λέξη</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_gb">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>118</y>
-      <width>81</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Νέα Λέξη</string>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="checkBox_el">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>201</y>
-      <width>141</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Τυχαία Επιλογή</string>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="checkBox_gb">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>120</y>
-      <width>141</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Τυχαία Επιλογή</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_elenxos">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>150</y>
-      <width>75</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Έλεγχος</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_lisi">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>240</y>
-      <width>91</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Λύση</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>70</y>
-      <width>231</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Λέξεις που εξετάστηκαν</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_ar_ex_lex">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>70</y>
-      <width>71</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>αριθμός</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>40</y>
-      <width>211</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Λέξεις Προς Εξέταση</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_arith_lex_pros_exet">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>40</y>
-      <width>71</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>TextLabel</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_printlist">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>230</y>
-      <width>101</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Προς Μητρώο
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="5" column="2" colspan="2">
+     <widget class="QLabel" name="label_p2">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Ελληνικά</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QCheckBox" name="checkBox_el">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Τυχαία Επιλογή</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Λέξεις Προς Εξέταση</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QCheckBox" name="checkBox_gb">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Τυχαία Επιλογή</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="pushButton_elenxos">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Έλεγχος</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLabel" name="label_p3">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Αγγλικά</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1" colspan="3">
+     <widget class="QLineEdit" name="lineEdit_el"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QPushButton" name="pushButton_printlist">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>Προς Μητρώο
 Εκτύπωσης</string>
-    </property>
-   </widget>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1" colspan="3">
+     <widget class="QLineEdit" name="lineEdit_gb"/>
+    </item>
+    <item row="6" column="4">
+     <widget class="QPushButton" name="pushButton_el">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Νέα Λέξη</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="4">
+     <widget class="QPushButton" name="pushButton_gb">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Νέα Λέξη</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QLabel" name="label_ar_ex_lex">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>αριθμός</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="3">
+     <widget class="QLabel" name="label_p1">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Αριθμός Καταχωριμένων Λέξεων</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="3">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Λέξεις που εξετάστηκαν</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label_ar_lexeon">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLabel" name="label_arith_lex_pros_exet">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1" colspan="3">
+     <widget class="QPushButton" name="pushButton_lisi">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Λύση</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
